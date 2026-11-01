@@ -1,0 +1,19 @@
+{
+  "name": "finance-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "اپلیکیشن مدیریت مالی شخصی",
+  "scripts": {
+    "sync": "npx cap sync android",
+    "open:android": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/filesystem": "^6.0.1",
+    "@capacitor/share": "^6.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}

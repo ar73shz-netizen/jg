@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+<title>مدیریت مالی</title>
+<link rel="icon" href="logo.png" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <div class="header">
+      <div class="header-top">
+        <img src="logo.png" alt="لوگو" />
+        <span class="header-title">مدیریت مالی</span>
+        <div class="header-actions">
+          <button class="header-btn" data-action="set-tab" data-tab="search" title="جستجو">🔍</button>
+          <button class="header-btn" data-action="set-tab" data-tab="settings" title="تنظیمات">⚙️</button>
+        </div>
+      </div>
+      <div class="balance-label">موجودی فعلی</div>
+      <div class="balance-value" id="balance-value">0 تومان</div>
+    </div>
+    <div class="tabs" id="tabs"></div>
+    <div class="content" id="content"></div>
+    <nav class="bottom-nav" id="bottom-nav"></nav>
+  </div>
+  <div id="modal-root"></div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "appId": "ir.local.financeapp",
+  "appName": "مدیریت مالی",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
